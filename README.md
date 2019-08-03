@@ -34,13 +34,11 @@ Open the file `dist/index.html` in your browser
 
 ## Credits
 
-Made with [createapp.dev](https://createapp.dev/)
-(
-  Main Library -> React,
-  Transpiler -> Babel,
-  Styling -> CSS Modules, Sass,
-  Image -> SVG, PNG,
-  Utilities -> moment, lodash,
-  Linting -> ESLint, Prettier,
-  React -> React hot loader
-)
+Made with [createapp.dev](https://createapp.dev/):  
+main library -> React,  
+transpiler -> Babel,  
+styling -> CSS Modules, Sass,  
+image -> SVG, PNG,  
+utilities -> moment, lodash,  
+linting -> ESLint, Prettier,  
+react -> React hot loader.  
