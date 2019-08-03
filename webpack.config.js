@@ -37,7 +37,7 @@ const config = {
         ]
       },
       {
-        test: /\.svg$/,
+        test: /\.(svg|eot|woff|ttf|svg|woff2)$/,
         use: 'file-loader'
       },
       {
@@ -57,7 +57,10 @@ const config = {
     extensions: [
       '.js',
       '.jsx'
-    ]
+    ],
+    alias: {
+      'global': path.resolve(__dirname, 'src/global'),
+    },
   },
   devServer: {
     contentBase: './dist'

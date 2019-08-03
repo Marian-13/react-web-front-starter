@@ -16,11 +16,14 @@
   "dependencies": {
     "babel-eslint": "^10.0.2",
     "lodash": "^4.17.15",
+    "material-design-icons": "^3.0.1",
+    "materialize-css": "^1.0.0-rc.2",
     "moment": "^2.24.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-hot-loader": "^4.12.10"
+    "react-hot-loader": "^4.12.10",
+    "react-materialize": "^3.3.4"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
