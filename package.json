@@ -10,33 +10,40 @@
     "clean": "rm dist/bundle.js",
     "build-dev": "webpack -d --mode development",
     "build-prod": "webpack -p --mode production",
-    "start": "webpack-dev-server --hot --mode development"
+    "start": "webpack-dev-server --hot --mode development",
+    "eslint": "./node_modules/.bin/eslint src/ --ext .jsx --ext .js"
   },
   "dependencies": {
+    "babel-eslint": "^10.0.2",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-hot-loader": "^4.12.10",
-    "moment": "^2.24.0",
-    "lodash": "^4.17.15"
+    "react-hot-loader": "^4.12.10"
   },
   "devDependencies": {
-    "webpack": "^4.39.1",
-    "webpack-cli": "^3.3.6",
-    "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.6",
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
-    "webpack-dev-server": "^3.7.2",
-    "eslint": "^6.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
     "css-loader": "^3.1.0",
-    "style-loader": "^0.23.1",
-    "sass-loader": "^7.1.0",
-    "node-sass": "^4.12.0",
-    "lodash-webpack-plugin": "^0.11.5",
-    "prettier": "^1.18.2",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^17.1.1",
     "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
     "file-loader": "^4.1.0",
-    "url-loader": "^2.1.0"
+    "lodash-webpack-plugin": "^0.11.5",
+    "node-sass": "^4.12.0",
+    "prettier": "^1.18.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^2.1.0",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
   }
 }

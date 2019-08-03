@@ -16,6 +16,12 @@ To run in hot module reloading mode:
 npm start
 ```
 
+To check ESLint rules
+
+```sh
+npm run eslint
+```
+
 To create a production build:
 
 ```sh
