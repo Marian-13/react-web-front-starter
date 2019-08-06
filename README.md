@@ -40,7 +40,7 @@ Open the file `dist/index.html` in your browser
 
 ## Credits
 
-Made with [createapp.dev](https://createapp.dev/):  
+Initially made with [createapp.dev](https://createapp.dev/):  
 
 | Option | Value |
 | - | - |
@@ -51,3 +51,5 @@ Made with [createapp.dev](https://createapp.dev/):
 | utilities | moment, lodash|
 | linting | ESLint, Prettier|
 | react | React hot loader|
+
+[Testing a React app with Jasmine npm](https://jasmine.github.io/tutorials/react_with_npm)

@@ -1,4 +1,4 @@
-import "global/fonts.scss";
+import "global/fonts.scss ";
 import "global/stylesheets.scss";
 import "global/javascripts";
 
