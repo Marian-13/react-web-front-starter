@@ -7,31 +7,31 @@ Front of Logistics App.
 First install dependencies:
 
 ```sh
-npm install
+yarn install
 ```
 
 To run in hot module reloading mode:
 
 ```sh
-npm start
+yarn start
 ```
 
 To check ESLint rules
 
 ```sh
-npm run eslint
+yarn run eslint
 ```
 
 To create a production build:
 
 ```sh
-npm run build-prod
+yarn run build-prod
 ```
 
 To create a development build:
 
 ```sh
-npm run build-dev
+yarn run build-dev
 ```
 
 ## Running
@@ -41,10 +41,13 @@ Open the file `dist/index.html` in your browser
 ## Credits
 
 Made with [createapp.dev](https://createapp.dev/):  
-main library -> React,  
-transpiler -> Babel,  
-styling -> CSS Modules, Sass,  
-image -> SVG, PNG,  
-utilities -> moment, lodash,  
-linting -> ESLint, Prettier,  
-react -> React hot loader.  
+
+| Option | Value |
+| - | - |
+| main library | React|
+| transpiler | Babel|
+| styling | CSS Modules, Sass|
+| image | SVG, PNG|
+| utilities | moment, lodash|
+| linting | ESLint, Prettier|
+| react | React hot loader|
