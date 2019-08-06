@@ -1,8 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import App from "./App";
+import configureStore from "./redux/configureStore";
+import Root from "./Root";
 
-const mountNode = document.getElementById("app");
+const store = configureStore();
 
-ReactDOM.render(<App />, mountNode);
+ReactDOM.render(
+  <Root store={store} />,
+  document.getElementById("root")
+);
