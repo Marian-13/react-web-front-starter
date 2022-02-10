@@ -56,7 +56,7 @@
     "jasmine-enzyme": "^7.1.0",
     "jsdom": "^15.1.1",
     "lodash-webpack-plugin": "^0.11.5",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "prettier": "^1.18.2",
     "redux-devtools": "^3.5.0",
     "redux-devtools-extension": "^2.13.8",
